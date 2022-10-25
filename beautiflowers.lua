@@ -2,7 +2,7 @@ local S = hades_fossils.translator
 
 local flowers = beautiflowers.flowers
 
-for i = 1. #flowers do
+for i = 1, #flowers do
   local name, dye, box = unpack(flowers[i])
   local desc = unpack(name:split("_"))
   
